@@ -1,6 +1,6 @@
  <template>
    <div ref="parent" class="gamemap">
-     <canvas ref="canvas">
+     <canvas ref="canvas" tabindex="0">
 
      </canvas> <!-- 这是一个画布，调取其中的api来绘制我们的地图 -->
    </div>
